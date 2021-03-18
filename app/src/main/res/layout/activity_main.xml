@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/best"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="best location"
+        android:textColor="#FF333333"
+        android:padding="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내 위치 얻어오기"
+        android:onClick="clickBtn"/>
+    <TextView
+        android:id="@+id/tv_mylocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위도, 경도"
+        android:textColor="#FF333333"
+        android:padding="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="실시간 위치 정보 얻기"
+        android:onClick="clickBtn2"/>
+    <TextView
+        android:id="@+id/tv_automyloaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위치,경도"
+        android:textColor="#FF333333"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="실시간 위치 정보 종료"
+        android:onClick="clickBtn3"/>
+
+</LinearLayout>
